@@ -21,3 +21,9 @@ For example, an RPM server would encapsulate the RPM format (using the libdnf
 API).  Then, a CLI client and a GUI-based client would both use that server to
 install RPM packages as well as other servers to install Python packages and so
 on.
+
+This project is heavily inspired by the
+[https://microsoft.github.io/language-server-protocol/](Language Server
+Protocol (LSP)) started by Microsoft to support code completion features in
+different editors (such as VSCode, VIM or Atom) for different programming
+languages.
